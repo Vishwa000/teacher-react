@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex: 0.4;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 12px;
+}
+.right {
+  float: inline-end;
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  border: 1px solid;
+  background-color: blue;
+  height: 50px;
+}
+
+button {
+  background-color: rgba(0, 128, 17, 0.662);
+  color: white;
+
+  padding: 5px;
+}

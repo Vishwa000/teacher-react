@@ -1,0 +1,8 @@
+#about{
+    background-image: linear-gradient(
+    to right,
+    lightgreen,
+    lightgray,
+    pink
+  ) !important;
+}
