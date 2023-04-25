@@ -11,24 +11,24 @@ const Header = () => {
             <div className="header">
               <div className="left">
                 <Link to="/about">
-                  <button>About</button>
+                  <button className="btn-1">About</button>
                 </Link>
                 <Link to="/">
-                  <button>Student</button>
+                  <button className="btn-1">Student</button>
                 </Link>
                 <Link to="/teacher">
-                  <button>Teacher</button>
+                  <button className="btn-1">Teacher</button>
                 </Link>
               </div>
               <div className="right">
                 <span>
                   <Link to="/addstudent">
-                    <button>Add Student</button>
+                    <button className="btn-1">Add Student</button>
                   </Link>
                 </span>
                 <span>
                   <Link to="/addteacher">
-                    <button>Add Teacher</button>
+                    <button className="btn-1">Add Teacher</button>
                   </Link>
                 </span>
               </div>

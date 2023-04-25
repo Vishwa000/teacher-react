@@ -77,12 +77,12 @@ const Teacher = ({setEditTeacherData}) => {
                         <TableCell align="right">{row.email}</TableCell>
                         <TableCell align="right">{row.phone}</TableCell>
                         <TableCell align="right">
-                          <Button onClick={(e) => handleEdit(e, row)}>
+                          <Button className="btn-2" onClick={(e) => handleEdit(e, row)}>
                             Edit
                           </Button>
                         </TableCell>
                         <TableCell align="right">
-                          <Button onClick={(e) => handleDelete(e, row.id)}>
+                          <Button className="btn-3" onClick={(e) => handleDelete(e, row.id)}>
                             delete
                           </Button>
                         </TableCell>

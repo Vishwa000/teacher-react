@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
   align-items: center;
@@ -21,13 +22,22 @@
 
 .box {
   border: 1px solid;
-  background-color: blue;
+  background-color: gainsboro;
   height: 50px;
+  border: none;
 }
 
 button {
-  background-color: rgba(0, 128, 17, 0.662);
-  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: verdana;
+  text-transform: uppercase;
+  border: none;
+}
 
-  padding: 5px;
+.btn-1:hover{
+  box-shadow: 0px 0px 5px rgb(238, 248, 96),0px 0px 25px rgb(238, 248, 96),0px 0px 50px rgb(238, 248, 96);
+  background-color:rgb(238, 248, 96);
+
 }

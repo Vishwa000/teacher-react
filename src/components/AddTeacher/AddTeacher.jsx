@@ -77,7 +77,7 @@ const AddTeacher = () => {
             required
           />
           <br />
-          <Button type="submit">Submit For Add Teacher</Button>
+          <Button type="submit">Submit</Button>
         </Box>
       </div>
     </div>

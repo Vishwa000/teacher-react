@@ -81,12 +81,12 @@ const Student = ({ setData }) => {
                         <TableCell align="right">{row.email}</TableCell>
                         <TableCell align="right">{row.carbs}</TableCell>
                         <TableCell align="right">
-                          <Button onClick={(e) => handleEdit(e, row)}>
+                          <Button className="btn-4" onClick={(e) => handleEdit(e, row)}>
                             Edit
                           </Button>
                         </TableCell>
                         <TableCell align="right">
-                          <Button onClick={(e) => handleDelete(e, row.id)}>
+                          <Button className="btn-5" onClick={(e) => handleDelete(e, row.id)}>
                             Delete
                           </Button>
                         </TableCell>
